@@ -14,4 +14,11 @@ function divide(a, b) {
   return a / b
 }
 
-module.exports = { add, subtract, multiply, divide }
+function is_true(a) {
+  if (a) {
+    return true
+  }
+  return false
+}
+
+module.exports = { add, subtract, multiply, divide, is_true }
